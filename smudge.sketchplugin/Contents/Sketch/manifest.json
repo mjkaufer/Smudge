@@ -1,0 +1,23 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Smudge",
+      "identifier": "smudge",
+      "shortcut": "cmd shift m",
+      "handler": "runSmudge",
+      "script": "smudge.js"
+    }
+  ],
+  "menu": {
+    "title": "smudge-plugin",
+    "items": [
+      "smudge"
+    ]
+  },
+  "disableCocoaScriptPreprocessor": false,
+  "version": "0.1.0",
+  "name": "smudge",
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
